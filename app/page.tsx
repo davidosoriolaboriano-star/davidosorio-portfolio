@@ -124,7 +124,7 @@ export default function Home() {
 
       <section
         id="sobre-mi"
-        className="mx-auto mb-20 grid max-w-7xl gap-8 rounded-3xl border border-blue-900/40 bg-slate-900/70 px-8 py-10 md:grid-cols-3"
+        className="mx-auto mt-16 mb-20 grid max-w-7xl gap-8 rounded-3xl border border-blue-900/40 bg-slate-900/70 px-8 py-10 md:grid-cols-3"
       >
         <div className="flex gap-6">
           <img
