@@ -27,7 +27,77 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="bg-[#030712] text-white">
+
+      <nav className="fixed top-0 left-0 right-0 z-50 border-b border-blue-900/30 bg-[#030712]/80 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-4">
+
+          <div className="flex items-center gap-4">
+            <div className="text-3xl font-black text-blue-500">
+              DO
+            </div>
+
+            <p className="font-bold tracking-wide">
+              DAVID OSORIO
+            </p>
+          </div>
+
+          <div className="hidden items-center gap-8 text-sm text-gray-300 md:flex">
+            <a href="/">Inicio</a>
+            <a href="/sobre-mi">Sobre mí</a>
+            <a href="/academia">Academia</a>
+            <a href="/contacto">Contacto</a>
+
+            <div className="ml-4 flex items-center gap-4 border-l border-gray-700 pl-6">
+
+              <a
+                href="https://github.com/davidosoriolaboriano-star"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:scale-110"
+              >
+                <img
+                  src="/github.png"
+                  alt="GitHub"
+                  className="h-8 w-8 object-contain"
+                />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/david-angel-osorio-laboriano/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:scale-110"
+              >
+                <img
+                  src="/linkedin.png"
+                  alt="LinkedIn"
+                  className="h-8 w-8 object-contain"
+                />
+              </a>
+
+              <a
+                href="https://www.youtube.com/@TU-CANAL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition hover:scale-110"
+              >
+                <img
+                  src="/youtube.png"
+                  alt="YouTube"
+                  className="h-8 w-8 object-contain"
+                />
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </nav>
+
+      {children}
+
+    </body>
     </html>
   );
 }
