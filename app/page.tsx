@@ -25,7 +25,7 @@ export default function Home() {
 
       <section
         id="inicio"
-        className="relative grid min-h-[calc(100vh-80px)] grid-cols-1 items-center gap-8 overflow-hidden px-0 pt-24 pb-0 md:grid-cols-[0.85fr_1.15fr]">
+        className="relative grid min-h-[80vh] grid-cols-1 items-center gap-8 overflow-hidden px-0 pt-24 pb-0 md:grid-cols-[0.85fr_1.15fr]">
               <div className="absolute inset-0 -z-10 overflow-hidden">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_75%_35%,rgba(37,99,235,0.35),transparent_35%),radial-gradient(circle_at_25%_25%,rgba(147,51,234,0.15),transparent_30%)]" />
             <div className="absolute right-0 top-20 h-[500px] w-[700px] rounded-full bg-blue-600/10 blur-3xl" />
