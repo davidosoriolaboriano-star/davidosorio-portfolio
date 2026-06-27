@@ -84,7 +84,7 @@ export default function Home() {
             </div>
       </section>
 
-      <section id="proyectos" className="scroll-mt-24 mx-auto max-w-7xl px-8 py-16">
+      <section id="proyectos" className="scroll-mt-24 mx-auto max-w-7xl px-8 py-8">
         <div className="mb-8 flex items-center justify-between">
           <h2 className="text-4xl font-black">Proyectos Destacados</h2>
           <a href="#" className="text-blue-400">Ver todos los proyectos →</a>
