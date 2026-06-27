@@ -21,7 +21,7 @@ const projects = [
 
 export default function Home() {
   return (
-        <main className="min-h-screen bg-[#030712] pb-20 text-white">
+        <main className="min-h-screen bg-[#030712] pb-8 text-white">
 
       <section
         id="inicio"
