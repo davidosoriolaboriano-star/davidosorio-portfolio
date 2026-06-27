@@ -173,6 +173,6 @@ export default function Home() {
             </p>
           </div>
       </section>
-    </main>
+    </main className="pb-20">
   );
 }
